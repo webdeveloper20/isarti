@@ -1,0 +1,92 @@
+body,
+html {
+    background-color: #f5c000;
+}
+
+.content-wrapper-vacancy {
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 10px 36px 0px rgba(202, 169, 169, 0.693);
+}
+
+.vacancies-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 12px 0px #2c374c4b;
+    transition: all .2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.vacancies-card:hover {
+    box-shadow: 0px 10px 24px 0px #2c374c1b;
+    transform: scale(1.02);
+}
+
+.vacancies-card:hover img {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 24px 0px #2c374c1b;
+}
+
+.vacancies-img {
+    max-width: 7rem;
+    max-height: 7rem;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.vacancies-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.vacancies-text {
+    font-size: 0.8rem;
+}
+
+.vacancy-filter .vacancy-search-input {
+    width: 100%;
+}
+
+.vacancy-filter .vacancy-search-input::placeholder {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.vacancy-filter .vacancy-search-btn {
+    position: absolute;
+    right: 0;
+}
+
+.vacancy-filter select {
+    text-align: center;
+    text-align-last: center;
+    font-size: 0.9rem;
+}
+
+.vacancy-filter .vacancy-inputs {
+    box-shadow: 0px 10px 36px 0px rgba(0, 0, 0, .1);
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-radius: 8px;
+    border: 0.1px solid rgb(255, 255, 255) !important;
+    transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.vacancy-filter .vacancy-inputs:focus {
+    outline: none !important;
+    border: 1px solid #f5c000 !important;
+    box-shadow: 0px 10px 36px 0px rgba(0, 0, 0, .1);
+}
+
+.vacancy-filter .bi-search {
+    color: black;
+    opacity: 25%;
+}
+
+
+/* Footer */
+
+footer ul li {
+    margin-left: -30px !important;
+}

@@ -1,0 +1,105 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.containerler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.containerler .heading {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.containerler .heading h3 {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.containerler .heading h3 span {
+  font-weight: 100;
+}
+.containerler .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerler .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.containerler .box .dream img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.containerler .buttons {
+  background: #fc0;
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 9px 8px;
+  color: #fff !important;
+  transition: 0.3s;
+  text-decoration: none !important;
+}
+
+.containerler .buttons:hover {
+  color: #fff;
+  display: inline-block;
+  background: rgb(4, 4, 3);
+  border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 769px) {
+  .containerler .box {
+    flex-direction: column;
+  }
+
+  .containerler .box .dream {
+    width: 100%;
+  }
+}
+.hiddin,
+.work_hiddin {
+  display: none;
+}
+@media only screen and (max-width: 643px) {
+  .containerler .heading {
+    width: 100%;
+  }
+  .containerler .heading h3 {
+    font-size: 1em;
+  }
+}
+
+/* Perloader */
+
+#preloader {
+  background: #fff url(preloader.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

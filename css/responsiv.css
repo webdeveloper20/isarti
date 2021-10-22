@@ -1,0 +1,102 @@
+@media only screen and (max-width:1199px) {
+    .logo_img {
+        margin-left: -25px !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .carousel_text * {
+        text-align: center;
+    }
+    .carousel_text h5 {
+        font-size: 1.8rem;
+    }
+    .carousel_text p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:525px) {
+    .carousel_text h5 {
+        font-size: 1.5rem !important;
+    }
+    .carousel_text p {
+        font-size: .8rem !important;
+    }
+    
+.swiper-button-next:after,
+.swiper-button-prev:after{
+     width: 50px !important;
+     font-size: 30px !important;
+     height: 50px !important;
+ }
+}
+
+@media only screen and (min-width:1199px) {
+    nav a.nav-link {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width:563px) {
+    .breadcrumb .link1 {
+        margin-left: 35% !important;
+    }
+    .biz span:first-child {
+        font-size: 3.5em;
+        margin-left: -10px;
+    }
+    .biz {
+        font-size: 1em;
+    }
+    .ana_paraqraf {
+        font-size: 1em;
+    }
+    .carousel_text h5 {
+        font-size: 2.3em;
+        font-weight: 700;
+    }
+    .carousel_text p {
+        font-size: 1em;
+    }
+    .icon_yellow th .fa {
+        font-size: 1.5em;
+    }
+    .icon_yellow td span {
+        font-size: 1.5em;
+        padding-top: 15px !important;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .icon_yellow td {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    nav.sticky a.nav-link {
+        /* margin-left: -25px !important; */
+        margin-top: 30px !important;
+        padding: 5px 8px !important;
+    }
+    nav a.nav-link {
+        /* margin-top: 25px !important; */
+        margin-top: 30px !important;
+        padding: 5px 8px !important;
+    }
+    nav .navbar {
+        height: 100px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    nav a.nav-link {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    nav a.nav-link {
+        font-size: 15px !important;
+    }
+}

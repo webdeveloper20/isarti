@@ -1,0 +1,17 @@
+/* Hamisi ucun eyni oloan */
+
+.img_comon {
+    margin-top: 100px;
+}
+
+.bg_blur {
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.027);
+}

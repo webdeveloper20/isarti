@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/* ================Hamisi ucun eyni olan classlar==================== */
+
+.margin_left {
+  margin-left: 50px !important;
+}
+
+.margin_tops {
+  margin-top: -40px !important;
+}
+
+.margins_top {
+  padding-top: 70px !important;
+}
+
+a.padding_enter {
+  padding: 9px 8px !important;
+}
+
+.cards {
+  border: 1px solid #fc0;
+  margin-bottom: 50px !important;
+}
+
+.margin_top {
+  display: inline-block;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.buttons {
+  background: #fc0;
+  border: none;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 9px 8px;
+  color: #fff !important;
+  transition: 0.3s;
+  text-decoration: none !important;
+}
+
+.color_black {
+  color: black !important;
+  display: inline-block;
+}
+
+.buttons:hover {
+  color: #fff;
+  display: inline-block;
+  background: rgb(4, 4, 3);
+  border: 1px solid #ffffff;
+}
+
+.color_1 {
+  color: #fc0 !important;
+}
+
+/* =============Perloader=============== */
+
+#preloader {
+  background: #fff url(preloader.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* ======================================== */
+
+#home,
+.home img {
+  padding-top: 30px;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+nav {
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.nav-item {
+  margin-left: 15px !important;
+}
+
+nav .nav-link {
+  padding: 5px 15px !important;
+  color: black;
+  font-size: 19px;
+  transition: 0.3s;
+  position: relative;
+}
+
+nav .nav-link:hover {
+  color: #fc0 !important;
+}
+
+nav .nav-link::before {
+  content: "";
+  background: #fc0;
+  position: absolute;
+  left: 0px;
+  top: -15px;
+  height: 4px;
+  width: 0;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+nav .nav-link:hover::before {
+  width: 100%;
+}
+
+nav.sticky {
+  transition: 0.5s ease !important;
+  padding: 8px 20px !important;
+  border-bottom: 1px solid #000 !important;
+}
+
+.breadcrumb {
+  background-color: #fff !important;
+}
+
+.breadcrumb .link1 {
+  margin-left: 40% !important;
+}
+
+.carousel_text {
+  display: flex;
+  padding: 50px 0;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgba(255, 204, 0, 0.33),
+    rgba(255, 204, 0, 0.301)
+  );
+  height: 250px;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.carousel_text h5 {
+  font-size: 2.8em;
+  font-weight: 700;
+}
+
+.carousel_text p {
+  font-size: 1.2em;
+}
+
+.carousel_text * {
+  color: rgb(255, 255, 255);
+}
+
+.icon_yellow th {
+  padding: 35px 0px !important;
+}
+
+.icon_yellow th .fa {
+  color: #fc0;
+  font-size: 1.8em;
+}
+
+.icon_yellow td span {
+  color: #fc0;
+  font-size: 2em;
+  margin-right: 6px;
+}
+
+.icon_yellow td {
+  font-size: 1.4em;
+}
+
+.biz span:first-child {
+  margin-left: -6px;
+  font-size: 4em;
+  color: #fc0;
+}
+
+.biz {
+  font-size: 1.5em;
+}
+
+.ana_paraqraf {
+  font-size: 1.5em;
+}
+
+/* =================About===================== */
+
+.bg-about {
+  background-color: #fff;
+}
+
+.breadcrumb .link1 a {
+  color: #fc0 !important;
+}
+
+/* =================Job Ads===================== */
+
+#jobads {
+  background-color: #fc0;
+}
+
+.about_company {
+  width: 100% !important;
+  background-color: aliceblue;
+  height: 200px !important;
+  border: 1px solid #fc0;
+}

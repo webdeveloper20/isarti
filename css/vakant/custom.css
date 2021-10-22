@@ -1,0 +1,213 @@
+/* CSS custom styles and variables */
+
+
+/* Custom icons */
+
+.heart-like {
+    color: red;
+    cursor: pointer;
+}
+
+.thumbs-like {
+    color: #2c374c;
+    cursor: pointer;
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+        transform: scale3d(1.15, 1.15, 1.15);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+        transform: scale3d(1.15, 1.15, 1.15);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+/* Custom gradient backgroumds */
+
+.bg-gradient-main {
+    background: linear-gradient(45deg, #f5c000, #f5c000);
+}
+
+.bg-gradient-purple {
+    background: linear-gradient(45deg, #f5c000, #f5c000);
+}
+
+.bg-gradient-orange {
+    background: linear-gradient(45deg, #f5c000, #f5c000);
+}
+
+
+/* Custom Text Colors */
+
+.text-black {
+    color: #2c374c !important;
+}
+
+.text-primary {
+    color: #f5c000 !important;
+}
+
+.text-orange {
+    color: var(--orange) !important;
+}
+
+.text-purple {
+    color: var(--purple) !important;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+
+/* ------------------- */
+
+
+/* Custom Buttons */
+
+.btn-main {
+    background-color: #f5c000;
+    color: #fff;
+}
+
+.btn-main-light {
+    background-color: rgba(247, 240, 36, 0.822);
+    color: var(--main-blue);
+}
+
+.btn-purple {
+    background-color: var(--purple);
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #f6f7f9;
+    color: rgb(250, 236, 40);
+    ;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+    color: #fff;
+}
+
+.btn-main-light:hover {
+    background-color: #f5c000;
+    color: #f5c000;
+}
+
+.btn-light:hover {
+    filter: brightness(.95);
+    background-color: #f6f7f9;
+    color: #f5c000;
+}
+
+.bi-chevron-right {
+    transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.btn:hover>.bi-chevron-right {
+    margin-left: 10px;
+}
+
+.btn-l {
+    min-width: 8rem;
+    min-height: 3rem;
+}
+
+.btn-outline-none:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+/* Custom heading sizes */
+
+.heading-1 {
+    font-size: 4rem;
+}
+
+
+/* Forms */
+
+.form-black input,
+.form-black textarea {
+    background-color: #f5c000;
+    border: none;
+    color: white;
+}
+
+.form-black input:focus,
+.form-black textarea:focus {
+    background-color: #f5c000;
+    border: none;
+    color: white;
+}
+
+.form-black>label {
+    color: #f6f7f9;
+}
+
+.read-more {
+    color: #f5c000;
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.read-more:hover {
+    color: #f5c000;
+}
+
+.read-more:hover>.bi-chevron-right {
+    margin-left: 10px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 575px) {
+    .heading-1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .heading-1 {
+        font-size: 3rem;
+    }
+}
